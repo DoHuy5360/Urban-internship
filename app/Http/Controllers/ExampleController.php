@@ -12,14 +12,14 @@ class ExampleController extends Controller
      */
     public function index()
     {
-        $de = DB::select(
+        $example = DB::select(
             "SELECT *
             FROM examples
             "
         )[0];
-        // dd($de);
+        // dd($example);
         return view('example', [
-            'de'=> $de
+            'de'=> $example
         ]);
     }
 

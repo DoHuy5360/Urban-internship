@@ -19,7 +19,7 @@ class ExampleController extends Controller
         )[0];
         // dd($example);
         return view('example', [
-            'de'=> $example
+            'example'=> $example
         ]);
     }
 

@@ -8,6 +8,6 @@
 </head>
 <body>
     Hell
-    {{ $de->exapmle }}
+    {{ $example->exapmle }}
 </body>
 </html>
